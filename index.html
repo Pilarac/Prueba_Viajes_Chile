@@ -17,52 +17,67 @@
 </head>
 
 <body>
-
-    <header class="container-fluid bg-dark fixed-top mb-5 ">
-        <nav class=" navbar navbar-expand-lg navbar-dark px-5">
-            <div class="container px-5">
-                <a class="navbar-brand" href="#">
-                    <img src="assets/img/viajes.svg" width="30" height="30" class="align-top" alt="logo_principal" />
-                    Viajes Chile
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="nav navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+    
+    <nav class="navbar navbar-expand-lg px-2 fixed-top navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/viajes.svg" width="30" height="30" class="d-inline-block align-top" alt="logo-principal"/>
+                Viajes Chile
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="navbar-nav ms-auto nav_menu_collapse">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#inicio">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Quienes somos</a>
+                            <a class="nav-link" href="#quienes">Quienes Somos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#"> Destacados</a>
+                            <a class="nav-link" href="#destacados">Destacados</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#"> Contacto</a>
+                            <a class="nav-link" href="#contacto">Contacto</a>
                         </li>
                     </ul>
                 </div>
-
             </div>
-        </nav>
+        </div>
+    </nav>
+    <header id="inicio">
+        <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="imagen-1" />
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="imagen-2" />
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="imagen-3" />
+                </div>
+            </div>
+            <button class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>       
+            </button>
+        </div>
+
+        </div>
+        </div>
     </header>
 
 
-    <section id="quienes">
 
-    </section>
-    <section id="destacados">
-
-    </section>
-    <section id="contacto">
-
-    </section>
 
     <footer>
         <h1>
