@@ -11,4 +11,7 @@ body {
   font-weight: bold;
   font-size: 10pt;
 }
-  
+
+.card-img-top {
+  max-height: 100px;
+}
